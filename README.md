@@ -57,3 +57,15 @@ Limitation of Method 1:
 Evaluation of Method 1: 
 We evaluated method-1 with the Ultima-2 chatbot using sample questions provided by the sponsor. Our objective was to test the app's ability to retrieve and process financial documents accurately. Test criteria included retrieving specific data points, performing calculations, and comparing values to provide answers to questions. We conducted two types of evaluations: Single Document Question-Answering and Multiple Document Question-Answering.
 
+
+References: 
+[1] Recursively split by character. Langchain. (n.d.). https://python.langchain.com/docs/modules/data_connection/document_transformers/text_splitters/recursive_text_splitter 
+[2] Split by character. Langchain. (n.d.). https://python.langchain.com/docs/modules/data_connection/document_transformers/text_splitters/character_text_splitter 
+[3] Split by Token. Langchain. (n.d.). https://python.langchain.com/docs/modules/data_connection/document_transformers/text_splitters/split_by_token
+[4] The database for AI by activeloop. Activeloop. (n.d.). https://app.activeloop.ai
+[5] Text Embesdding Model (n.d)https://python.langchain.com/docs/modules/data_connection/text_embedding/
+[6] Vector Stores (n.d)
+https://python.langchain.com/docs/modules/data_connection/vectorstores/
+[7] Data Connection (n.d)
+https://python.langchain.com/docs/modules/data_connection/ 
+[8] Conversational Retrieval QA. LangChain. (n.d.) https://python.langchain.com/docs/modules/chains/popular/chat_vector_db
