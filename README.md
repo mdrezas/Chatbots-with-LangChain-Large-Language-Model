@@ -1,4 +1,6 @@
 # Chatbots-with-LangChain-Large-Language-Model
 
 The primary goal of this project is to create a system that can programmatically ingest, process, and store the information contained within a package of data sets from an equity research analyst in the pharmacy space. This system will store the information in a vector database that stores embeddings, enabling an LLM to effectively query and reason with this data.
+
+
 The system will be evaluated based on its ability to accurately answer a set of sample questions provided by the sponsors, such as " How many scripts were written for Biktarvy in Quarter 1, 2023?" A stretch goal is to use an LLM chain, such as LangChain, to build an end-to-end pipeline to interact with the documents that have been stored and processed. This would enable the system to handle complex queries. The ultimate goal is to create a scalable foundation that can be expanded upon later, enhancing Ultima's decision-making processes and financial risk assessments, and providing them with a competitive advantage in the market.
