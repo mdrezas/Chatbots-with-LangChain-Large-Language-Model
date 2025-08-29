@@ -19,6 +19,7 @@ The app works by uploading files from the local directory. Afterward, the app de
 
 Instructor Embedding:
 Ultima-2 chatbot uses instructor embeddings to index and search text documents. Instructors generate text embeddings tailored to any task including classification, retrieval, clustering, and text evaluation in science and finance. The instructor embedding technique converts the text into tokens first. Using these tokens, a vector representation of the text is generated. Next, this vector representation is used to train a model that predicts how text was generated. The following diagram illustrates how instructor embedding works (Figure 4).
+
 Figure 3:
 
 <img width="236" height="140" alt="image" src="https://github.com/user-attachments/assets/23a0b933-20d4-487a-bd30-26bc07025b19" />
@@ -39,6 +40,7 @@ Parameters: As part of the functionality of this chatbot, the user has the flexi
 
 Text Splitter:
 During this project, we were able to compare the results of different LangChain text splitters by using different measures. To demonstrate the results of different text splitters, we compiled the results in a separate Excel file and attached them to the project's final deliverable. Nonetheless, the following diagram summarizes how each of these text splitters performed in response to different questions that were asked through this chatbot interface (Figure 4).
+
 Figure 4: 
 
 <img width="299" height="137" alt="image" src="https://github.com/user-attachments/assets/feca954a-43b9-4ede-b763-ffc986eecd8b" />
