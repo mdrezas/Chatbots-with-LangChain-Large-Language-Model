@@ -6,9 +6,9 @@ The primary goal of this project is to create a system that can programmatically
 The system will be evaluated based on its ability to accurately answer a set of sample questions provided by the sponsors, such as " How many scripts were written for Biktarvy in Quarter 1, 2023?" A stretch goal is to use an LLM chain, such as LangChain, to build an end-to-end pipeline to interact with the documents that have been stored and processed. This would enable the system to handle complex queries. The ultimate goal is to create a scalable foundation that can be expanded upon later, enhancing Ultima's decision-making processes and financial risk assessments, and providing them with a competitive advantage in the market.
 
 Multiple CSV files can be uploaded with this Chatbot. Following that, it loads the data into text documents based on the data source. 
-Next, these text documents are embedded using instructor embeddings, which are stored as vector datasets in ActiveLoop's database hub. Then the vector store is used as the retriever of a langchain that consists of an LLM model (default GPT-4). After embedding the input prompt, the chain performs a similarity search in the vector store and then renders the appropriate response based on the best results. Lastly, the chat history is cached locally so that Q&A conversations can be conducted similarly to ChatGPT. The following are details of some of the key techniques and technologies used to develop this chatbot (Figure 2).
+Next, these text documents are embedded using instructor embeddings, which are stored as vector datasets in ActiveLoop's database hub. Then the vector store is used as the retriever of a langchain that consists of an LLM model (default GPT-4). After embedding the input prompt, the chain performs a similarity search in the vector store and then renders the appropriate response based on the best results. Lastly, the chat history is cached locally so that Q&A conversations can be conducted similarly to ChatGPT. The following are details of some of the key techniques and technologies used to develop this chatbot (Figure 1).
 
-Figure 2:
+Figure 1:
  
 <img width="351" height="205" alt="image" src="https://github.com/user-attachments/assets/5f03f380-2324-41b2-86a0-32c20ef647a4" />
 
@@ -18,9 +18,9 @@ The app works by uploading files from the local directory. Afterward, the app de
 <img width="468" height="205" alt="image" src="https://github.com/user-attachments/assets/9ca2e8a1-0635-4975-93b3-319b7cd1794f" />
 
 Instructor Embedding:
-Ultima-2 chatbot uses instructor embeddings to index and search text documents. Instructors generate text embeddings tailored to any task including classification, retrieval, clustering, and text evaluation in science and finance. The instructor embedding technique converts the text into tokens first. Using these tokens, a vector representation of the text is generated. Next, this vector representation is used to train a model that predicts how text was generated. The following diagram illustrates how instructor embedding works (Figure 4).
+Ultima-2 chatbot uses instructor embeddings to index and search text documents. Instructors generate text embeddings tailored to any task including classification, retrieval, clustering, and text evaluation in science and finance. The instructor embedding technique converts the text into tokens first. Using these tokens, a vector representation of the text is generated. Next, this vector representation is used to train a model that predicts how text was generated. The following diagram illustrates how instructor embedding works.
 
-Figure 3:
+Figure 2:
 
 <img width="236" height="140" alt="image" src="https://github.com/user-attachments/assets/23a0b933-20d4-487a-bd30-26bc07025b19" />
 
@@ -39,9 +39,9 @@ Parameters: As part of the functionality of this chatbot, the user has the flexi
 *	 temperature: It controls the LLM output randomness. Temperatures greater than zero result in greater variation in response, while temperatures less than zero result in deterministic response.
 
 Text Splitter:
-During this project, we were able to compare the results of different LangChain text splitters by using different measures. To demonstrate the results of different text splitters, we compiled the results in a separate Excel file and attached them to the project's final deliverable. Nonetheless, the following diagram summarizes how each of these text splitters performed in response to different questions that were asked through this chatbot interface (Figure 4).
+During this project, we were able to compare the results of different LangChain text splitters by using different measures. To demonstrate the results of different text splitters, we compiled the results in a separate Excel file and attached them to the project's final deliverable. Nonetheless, the following diagram summarizes how each of these text splitters performed in response to different questions that were asked through this chatbot interface (Figure 3).
 
-Figure 4: 
+Figure 3: 
 
 <img width="299" height="137" alt="image" src="https://github.com/user-attachments/assets/feca954a-43b9-4ede-b763-ffc986eecd8b" />
 
