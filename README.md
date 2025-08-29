@@ -12,10 +12,12 @@ Figure 1:
  
 <img width="351" height="205" alt="image" src="https://github.com/user-attachments/assets/5f03f380-2324-41b2-86a0-32c20ef647a4" />
 
+
 Data Loading:
 The app works by uploading files from the local directory. Afterward, the app detects and loads the data source into text documents. It embeds the documents using instructor-XL embeddings, then stores the embeddings in a vector dataset on ACTIVELOOP's Deep Lake Cloud. For details on loading and execution, please refer to the terminal logs below (Figure 2).
 
-FIGURE 2:
+
+Figure 2:
 
 <img width="468" height="205" alt="image" src="https://github.com/user-attachments/assets/9ca2e8a1-0635-4975-93b3-319b7cd1794f" />
 
