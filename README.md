@@ -33,9 +33,9 @@ The Ultima-2 chatbot utilizes large language models (LLMs) like GPT-4 to generat
 Parameters: As part of the functionality of this chatbot, the user has the flexibilities to adjust some of the key parameters mentioned below that play key roles in feeding the data, generating embeddings, and providing responses in the form of ConversationalRetrievalQA chains [8].
 *	chunk_size: In LangChain-based apps, chunk_size determines how much text will be divided into smaller chunks before it is embedded. In addition to ensuring efficient processing of large documents, this parameter controls the granularity of embedding results
 *		fetch_k: This parameter specifies the number of documents to pull from the vector database.
-*			K: k represents the most similar embeddings selected by LangChain-based apps for building the context for the LLM prompt.
-*			max_token: This parameter determines how many documents are returned from the vector store before creating the context to query the large language models.
-*			temperature: It controls the LLM output randomness. Temperatures greater than zero result in greater variation in response, while temperatures less than zero result in deterministic response.
+*	 K: k represents the most similar embeddings selected by LangChain-based apps for building the context for the LLM prompt.
+*	 max_token: This parameter determines how many documents are returned from the vector store before creating the context to query the large language models.
+*	 temperature: It controls the LLM output randomness. Temperatures greater than zero result in greater variation in response, while temperatures less than zero result in deterministic response.
 
 Text Splitter:
 During this project, we were able to compare the results of different LangChain text splitters by using different measures. To demonstrate the results of different text splitters, we compiled the results in a separate Excel file and attached them to the project's final deliverable. Nonetheless, the following diagram summarizes how each of these text splitters performed in response to different questions that were asked through this chatbot interface (Figure 4).
