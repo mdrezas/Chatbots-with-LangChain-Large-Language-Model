@@ -40,11 +40,12 @@ During this project, we were able to compare the results of different LangChain 
 Figure 4: 
 <img width="299" height="137" alt="image" src="https://github.com/user-attachments/assets/feca954a-43b9-4ede-b763-ffc986eecd8b" />
 
-
 Limitation of Method 1:
-1.	This app might run into errors due to the prompt length that can be resolved by adjusting the parameters mentioned above. 
-2.	In some cases, the answers are hallucinatory or do not correlate with the true data content. Changing the temperature may help to overcome such tendencies.  
-3.	In some cases, the answer may not be relevant, which can be resolved by increasing chunk_size.  
+* This app might run into errors due to the prompt length that can be resolved by adjusting the parameters mentioned above. 
+*	In some cases, the answers are hallucinatory or do not correlate with the true data content. Changing the temperature may help to overcome such tendencies.  
+*	In some cases, the answer may not be relevant, which can be resolved by increasing chunk_size.  
+
+
 Evaluation of Method 1: 
 We evaluated method-1 with the Ultima-2 chatbot using sample questions provided by the sponsor. Our objective was to test the app's ability to retrieve and process financial documents accurately. Test criteria included retrieving specific data points, performing calculations, and comparing values to provide answers to questions. We conducted two types of evaluations: Single Document Question-Answering and Multiple Document Question-Answering.
 
