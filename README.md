@@ -40,6 +40,7 @@ Parameters: As part of the functionality of this chatbot, the user has the flexi
 Text Splitter:
 During this project, we were able to compare the results of different LangChain text splitters by using different measures. To demonstrate the results of different text splitters, we compiled the results in a separate Excel file and attached them to the project's final deliverable. Nonetheless, the following diagram summarizes how each of these text splitters performed in response to different questions that were asked through this chatbot interface (Figure 4).
 Figure 4: 
+
 <img width="299" height="137" alt="image" src="https://github.com/user-attachments/assets/feca954a-43b9-4ede-b763-ffc986eecd8b" />
 
 Limitation of Method 1:
