@@ -58,7 +58,7 @@ Evaluation of Method 1:
 We evaluated method-1 with the Ultima-2 chatbot using sample questions provided by the sponsor. Our objective was to test the app's ability to retrieve and process financial documents accurately. Test criteria included retrieving specific data points, performing calculations, and comparing values to provide answers to questions. We conducted two types of evaluations: Single Document Question-Answering and Multiple Document Question-Answering.
 
 
-References: 
+### References: 
 
 [1] Recursively split by character. Langchain. (n.d.). https://python.langchain.com/docs/modules/data_connection/document_transformers/text_splitters/recursive_text_splitter 
 
